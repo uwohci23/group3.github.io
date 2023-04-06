@@ -23,8 +23,13 @@
 .article-section-image {
     width: 95%;
     margin-right: 5%;
+    margin-bottom: 20px;
 }
 
 ::ng-deep .mat-grid-tile-content {
     display: block !important; /* or whichever you need */
+}
+
+::ng-deep .ngxImageZoomContainer > img{
+    width: 900px!important;
 }

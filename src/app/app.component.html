@@ -1,42 +1,452 @@
-<img src="assets/duckhunt.png" class="title-image">
+<img src="group3.github.io/assets/duckhunt.png" class="title-image">
 
 <div class ="game" >
-  <iframe src="https://i.simmer.io/@fergusonfinn/duck-hunt" style="width:720px;height:450px"></iframe>
+  <iframe src="https://i.simmer.io/@fergusonfinn/duckhunt" style="width:720px;height:450px"></iframe>
 </div>
 
-<mat-grid-list cols="6" rowHeight="470" class="article-section">
+<mat-grid-list cols="6" rowHeight="1310" class="article-section">
   <mat-grid-tile [colspan]="2" [rowspan]="1">
-    <img src="assets/screenshot.png" class="article-section-image">
+    <img src="group3.github.io/assets/screenshot1.png" class="article-section-image">
+    <img src="group3.github.io/assets/screenshot2.png" class="article-section-image">
+    <img src="group3.github.io/assets/screenshot4.png" class="article-section-image">
+    <img src="group3.github.io/assets/screenshot5.png" class="article-section-image">
+    <img src="group3.github.io/assets/screenshot6.png" class="article-section-image">
+    <img src="group3.github.io/assets/screenshot7.png" class="article-section-image">
   </mat-grid-tile>
   <mat-grid-tile [colspan]="4" [rowspan]="1">
     <mat-card class="example-card">
       <mat-card-header>
-        <mat-card-title>Executive Summary</mat-card-title>
+        <mat-card-title><u>Executive Summary</u></mat-card-title>
       </mat-card-header>
       <mat-card-content>
+        <br>
         <p>
-    
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat rhoncus consequat. Cras vitae 
-          iaculis ligula, commodo commodo purus. Curabitur consectetur velit hendrerit leo congue vehicula. Nulla 
-          condimentum congue ullamcorper. Fusce tristique et justo ac egestas. Vivamus massa eros, congue sit amet 
-          nisl ut, accumsan finibus ligula. Quisque nec neque a purus tempus luctus et vel turpis. Vestibulum at felis 
-          tincidunt tellus finibus viverra. Aenean laoreet, eros nec faucibus cursus, sem velit lobortis lacus, in 
-          pulvinar massa lorem id nulla. Nulla lorem nulla, auctor id suscipit id, faucibus ac ex.
-    
-          Suspendisse at ipsum eget enim maximus faucibus. Curabitur id urna velit. Orci varius natoque penatibus et 
-          magnis dis parturient montes, nascetur ridiculus mus. Nunc sit amet rhoncus mi. Nam rutrum dui arcu, ut aliquam 
-          lacus maximus a. Suspendisse pretium eros nisi, ut pulvinar dolor malesuada a. Proin eget augue sollicitudin, 
-          dignissim ex fermentum, rutrum ligula. Praesent auctor ut neque ullamcorper rutrum. Integer sem lectus, 
-          sollicitudin id ullamcorper ut, aliquam at nunc. Praesent in purus consectetur, suscipit tellus quis, lacinia 
-          velit. Duis feugiat lacus vitae eros placerat convallis. Pellentesque vestibulum volutpat sem id mattis. 
-          Pellentesque suscipit commodo dolor mollis molestie. Nam pharetra pretium mattis. Proin blandit nisl felis, 
-          id vehicula massa fringilla aliquet.
-    
-          Phasellus dapibus maximus leo et egestas. Suspendisse ex mauris, auctor eu lacinia nec, ullamcorper vel ex. 
-          Mauris aliquet urna vitae sapien facilisis, sed ultricies ex congue. Donec hendrerit id tortor eu volutpat. 
-          In suscipit est nec molestie congue. Nullam congue imperdiet neque, a imperdiet erat lacinia non. Curabitur
-          molestie vitae augue eu ultricies. Quisque scelerisque dolor vitae aliquet scelerisque. Vestibulum convallis 
-          ut quam at lobortis. Integer et gravida velit, sed viverra libero.
+          <b>Introduction</b><br>
+          Our group is redesigning the game Duck Hunt, a video game initially published by Nintendo in 1984 for the Nintendo Entertainment System, and later adapted by others into arcade and web based games. We will be specifically reworking the version published on the crazygames website, created by Matthew Surabian. Through research and user testing we have identified various flaws within the game and interface, which we intend to correct in our redevelopment of the game. Examples of design flaws include a lack of feedback, gaps in the gulf of execution and gulf of evaluation, etc.
+          Our solution for the game has modified the game utilizing over 20 design principles and the solutions include:
+        </p>
+        <ul>
+          <li>Updating the UI</li>
+          <li>Adding Rules/Instructions</li>
+          <li>Adding Exit and Restart Options with Confirmation</li>
+          <li>Interactivity with Reload Function</li>
+          <li>Leaderboard</li>
+          <li>Audio Settings</li>
+          <li>Difficulty Levels</li>
+          <li>Game End Screen</li>
+          <li>Start Menu with Setting Modification, High Score, etc.</li>
+          <li>Visual Indicator Replacing Cursor</li>
+          <li>Graphical Counter for Ducks</li>
+          <li>Ammo Visibility</li>
+          <li>And More</li>
+        </ul>
+        <br>
+        <p>
+          <b>Design Principle</b><br>
+
+          Through our modification we incorporated a list of over 20 design principles to maximize the user experience and the game play. The principles include:
+        </p>
+        <ul>
+          <li>User-Centred Design</li>
+          <li>Consistency</li>
+          <li>Aesthetic and Minimalistic Design</li>
+          <li>Customizability</li>
+          <li>Hick’s Law</li>
+          <li>Skeuomorphic Design</li>
+          <li>Error Prevention</li>
+          <li>Learnability</li>
+          <li>Recognition over Recall</li>
+          <li>Transfer</li>
+          <li>Feedback</li>
+          <li>Confirmation</li>
+          <li>Externalization of Information</li>
+          <li>Visibility</li>
+          <li>Progressive Disclosure</li>
+          <li>Affordances</li>
+          <li>Causality</li>
+          <li>Fitts’ Law</li>
+          <li>Know Thy User</li>
+        </ul>
+        <br>
+        <p>
+          <b>Heuristic</b><br>
+          The Duck Hunt game redesign has addressed several design flaws by using heuristics by Nielsen Norman Group to improve the user experience. The redesign includes several features to improve visibility, user control, consistency, error prevention, and recognition in the user interface. Aesthetically, the redesign maintains the game's classic feel while improving its functionality and appeal. The redesign also includes a comprehensive help section for users to quickly find information on how to play the game and controls.
+          Future Recommendations
+          The design of the project could be improved in terms of accessibility, particularly for touch screen devices and for players with vision impairments. The addition of a clickable pause button and a color blind mode would make the game more user-friendly for a larger player base. Additionally, collecting more user data to identify pain points and problematic actions could improve the design and user experience.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="4" rowHeight="700" class="article-section">
+  <mat-grid-tile [colspan]="4" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Navigational Map</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <lib-ngx-image-zoom
+        [thumbImage]=thumbNail
+        [fullImage]=fullres
+        [magnification]="1"
+        [enableScrollZoom]="true"
+        [enableLens]="true"
+        [lensWidth]="350"
+        [lensHeight]="250">
+        </lib-ngx-image-zoom>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="214" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #1: User-Centred Design</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          The game was designed with the user in mind to ensure that the game was more enjoyable for the player. The user-centred design ensures that game is engaging, fun, and enjoyable for players ultimately leading to a greater player satisfaction and loyalty. With this principle, we began by understanding the target audience and created a game experience that met their needs. We conducted initial research to understand the game's flaws and, from there, did an iterative process of testing the game with users until a version was designed that achieved aspects that the user was content with. Through this iterative process, we were able to find potential issues points and address the pain points, leading it an overall experience that was maximized for the user.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="194" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #2: Consistency</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          With consistency, we ensured that game had a consistent design throughout, with a consistent design, font, font sizes, colour scheme and styles. All of the in-game HUD elements utilized the same font, icon style and background shape to ensure users could distinguish them. Additionally, with the menus, we used a consistent graphical style to show text and buttons. This principle is fundamental in design, given the importance of maintaining a uniform look and feel. With this, we ensured that all the pages and screens were cohesive and seamless for the user experience. This gives us a more polished and professional look, enhancing the player’s enjoyment of the game and the aesthetic appeal.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="314" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #3 and #4: Aesthetic and Minimalistic Design</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          The aesthetic design principle focuses on creating a visually appealing game experience through the usage of colour, graphics, etc. With this principle, one can create an immersive and engaging game that draws users into the game and keeps them engaged. This was used by updating the UI in a manner where the ducks and backgrounds where all kept but with a visual update to ensure they were aesthetically appealing. Additionally, an aesthetic design provides a perception that it is more accessible to the user and has a higher probability of use, ultimately allowing for a more positive relationship between the game and the user.
+          <br><br>
+          The minimalistic design principle emphasized simplicity and functionality over excessive design graphics. This allows for a minimalist design that can be used to create a clean and intuitive game interface. Ultimately making it easier for users to understand the game and its mechanics and navigate through the game. We utilized it by creating a clean and simple game interface that is easy for players to navigate,
+          <br><br>
+          The combination of the design principles makes it more visually appealing, intuitive, and engaging for players.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="174" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #5: Customizability</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          This principle focuses on the ability of the user to modify the interface. With this game, we allow the user to update and change settings to make the game more engaging and enjoyable. The user can update the volume settings to their preference and toggle the ability to convert the ducks into balloons and difficulty levels. This allows a wide range of preferences and skill levels for the users. Through the ability to customize the sound, change the ducks and provide the users with difficulty levels, the user achieves a more engaging and enjoyable experience for the players.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="154" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #6: Hick's Law</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          In terms of Hick’s Law, we are aware that it is the time it takes to make a decision as the number of alternatives increases. With this game, we limit the number of choices available to the player by simplifying the game mechanics and interfaces. We reduce the number of options that the player needs to consider, such as difficulty levels, and the player makes decisions more quickly and efficiently, which enhances their overall experience.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="174" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #7: Skeuomorphic Design</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          Skeuomorphic Design is a design principle that involves using design elements that resemble their real-world counterparts in order to make them more familiar and recognizable to the users. We utilized an approach of using elements that resemble physical hunting equipment, such as the gun. We utilized the design of the gun to include realistic textures and crosshairs as well as an interface that utilizes as outdoor setting and cabin setting. This makes it a more immersive and engaging user experience.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="174" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #8: Error Prevention</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          In the game, error prevention is fundamental to maximize positive gaming experiences since users can become frustrated with a game through errors or mistakes. This is a design principle that involves designing systems and interfaces in a way that reduces the likelihood of errors or mistakes. Error prevention is provided by giving the users clear and concise instructions at the beginning of the game, providing visual cues when a duck is hit, and confirmation prompts before exiting or restarting the game. This reduces the likelihood of mistakes and ensures the game is enjoyable.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="174" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #9: Learnability</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          Learnability refers to the reach at which users can learn a system or interface. A system that is easy to learn will allow users to easily perform the game, and will allow for a reduction in the likelihood of errors. We implement this through clear instructions at the beginning of the game, visual and audio cues when they user hits a duck, and through an easy-to-use interface. This aims to significantly affect the user experience through an easy-to-learn manner.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="214" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #10: Recognition Over Recall</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          Recognition over recall is a principle that outlines that memory for recognizing things is better than memory for recalling things. The importance is that it makes the interface easier for users to recognize options instead of recalling specific information. This helps it make the game more user-friendly for the players. We implemented this through a visual cue, when the duck is hit, by providing immediate feedback and reinforcement. Allowing users to recognize that they have successfully hit the duck rather than recalling a requirement for hitting a duck. This reduces the number of options that a player needs to remember, we can make it easier for the users to recognize what they need to do. This is an important principle to make it more intuitive and a better user experience.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="154" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #11: Transfer</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          In our project, we used the design principle of transfer to ensure that the game had a familiar feel and was easy for users to learn. An example of transfer included in our design is the use of the escape button to pause as this is a commonly used button in other games. Another example of transfer is the use of left click to shoot the gun, this may be familiar to users as it is the default key for most shooting games.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="134" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #12: Feedback</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          The original design of the game contains very little feedback from user actions. We addressed this using the design principle by adding a reticle to give feedback on the user's mouse movement.</p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="134" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #13: Confirmation</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          We implemented the design principle of confirmation by including additional prompts when a user takes an action that would force them to leave the game. This comes in the form of an “are you sure?” question which they will then need to click to confirm their intentions.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="134" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #14: Externalization of Information</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          In the original version of the game it is difficult for users to track their available resources. We have redesigned parts of the UI to include an ammunition counter which externalizes the need for the user to keep track of how many bullets they have remaining.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="134" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #15: Visibility</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          The design principle of visibility was used in multiple aspects of our game design. Visibility is shown through added features such as showing the gun on screen for users and where the birds are in the gameplay area.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="174" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #16: Progressive Disclosure</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          When playing the game, we did not want to overload players with information and features. To mitigate this possibility, progressive disclosure was used to limit the options available to a user at each moment. This was applied through the menu navigation system which hides most of the available features until a user enters the pause menu. Users are then prompted with new options such as the settings menu, which when opened, gives users gameplay settings.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="154" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #17: Affordances</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          Both hidden and correctly perceived affordances were used throughout the project design to enhance the gameplay. Examples of correctly perceived affordance is the ability for the gun to shoot as well as menu buttons that can be clicked. A hidden affordance in our game is the ability to pause the game as that function is not displayed or explained.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="154" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #18: Causality</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          Causality was used in our design of Duck Hunt through the shooting mechanic and menu navigations. The shooting mechanic shows causality by making it clear that the users actions to shoot the gun by clicking caused the bird to get hit and fall from the air. The menu navigation shows causality as it is clear that the menus change when a button is clicked.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="174" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #19: Fitt's Law</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          In our design for the menu system, Fitts’ Law was incorporated. Fitts’ Law was used in the design to ensure the menu system had a smooth feel and to reduce mistakes during navigation. This was done by determining that the average cursor position during gameplay is near the middle of the screen, which determined the button location to reduce distance travelled. Additionally, the size of the buttons was determined to reduce honing time to make navigtating the menus a quicker experience.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="154" class="article-section">
+  <mat-grid-tile [colspan]="6" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Design Principle #20: Know Thy User</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          Duck Hunt has been a popular game for generations, and is played by gamers of all ages. Due to the wide age range and preference of some users to avoid killing, we have included a second game mode. The balloon mode allows for a more family friendly experience where users shoot at balloons rather than ducks, to avoid the use of killing living beings and further align with a large portion of users.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" rowHeight="1114" class="article-section">
+  <mat-grid-tile [colspan]="2" [rowspan]="1">
+    <img src="group3.github.io/assets/eval.png" class="article-section-image">
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="4" [rowspan]="1">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><u>Heuristic Evaluation</u></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <p>
+          <b>Visibility of System Status</b><br>
+          In our redesign, we have addressed the lack of feedback in the game by providing visual cues to the user regarding their current state and progress. For example, we have added a bullet counter to represent the amount of ammunition remaining, and a pause icon to symbolize the button which can stop the game and allow the user to access the pause menu.
+          
+          <br><br><b>Match Between the System and the Real World</b><br>
+          We have tried to make the design of the game as intuitive and user-friendly as possible. This means using language that is easy to understand, and ensuring that the controls and actions required to play the game are as natural and familiar as possible.
+          
+          <br><br><b>User Control & Freedom</b><br>
+          We have added a pause menu which allows users to pause the game and choose from a list of options including resume, restart, change difficulty, and exit to menu. The menu also has a smaller version of the leaderboard for easy access to users.
+         
+          <br><br><b>Consistency and Standards</b><br>
+          In our redesign, we have followed platform conventions and used consistent language and symbols throughout the game. For example, the pause icon has been used to symbolize the button which can stop the game and allow the user to access the pause menu, which is a commonly used symbol across different platforms.
+          
+          <br><br><b>Error Prevention</b><br>
+          We have taken several measures to prevent errors from occurring in our game, including designing it to be as intuitive and user-friendly as possible. We provide clear feedback to the user throughout the game and have minimized the possibility of mistakes. Additionally, whenever the user wishes to exit the game or return to the main menu, a second window will appear asking them to confirm their decision, further reducing the chance of unintended errors.
+          
+          <br><br><b>Recognition vs. Recall in User Interfaces</b><br>
+          We have made the design of the game as visually informative as possible, with clear and visible objects, actions, and options throughout the game. This helps to minimize the user's memory load and makes it easier for them to play the game.
+          
+          <br><br><b>Flexibility and Efficiency of Use</b><br>
+          We have provided users with a difficulty selector state which allows them to choose between easy, medium, and hard modes. This means that users of all skill levels can play the game, and experienced users can tailor the difficulty to their liking.
+          
+          <br><br><b>Aesthetic and Minimalist Design</b><br>
+          Our game's aesthetic and minimalist design was carefully crafted to enhance the user experience. We maintained the same art style as the original game to maintain its classic feel and consistency, while also making it more visually appealing and intuitive. We avoided cluttered and confusing screens by keeping the design as minimalist and simple as possible, while also not changing anything that was already good about the game's design. This approach ensured the game remained true to its original identity while improving its functionality and aesthetic appeal.
+          
+          <br><br><b>Help & Documentation</b><br>
+          Our game includes a comprehensive help section that provides users with detailed information about how to play the game, and the controls. We have made sure that this information is easy to access and understand, so that users can quickly find the information they need. 
+          
     
         </p>
       </mat-card-content>
@@ -44,144 +454,26 @@
   </mat-grid-tile>
 </mat-grid-list>
 
-<mat-grid-list cols="6" rowHeight="470" class="article-section">
+<mat-grid-list cols="6" rowHeight="614" class="article-section">
   <mat-grid-tile [colspan]="2" [rowspan]="1">
-    <img src="assets/screenshot.png" class="article-section-image">
+    <img src="group3.github.io/assets/thumbs.png" class="article-section-image">
   </mat-grid-tile>
   <mat-grid-tile [colspan]="4" [rowspan]="1">
     <mat-card class="example-card">
       <mat-card-header>
-        <mat-card-title>Navigational Map</mat-card-title>
+        <mat-card-title><u>Recommendations</u></mat-card-title>
       </mat-card-header>
       <mat-card-content>
         <p>
-    
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat rhoncus consequat. Cras vitae 
-          iaculis ligula, commodo commodo purus. Curabitur consectetur velit hendrerit leo congue vehicula. Nulla 
-          condimentum congue ullamcorper. Fusce tristique et justo ac egestas. Vivamus massa eros, congue sit amet 
-          nisl ut, accumsan finibus ligula. Quisque nec neque a purus tempus luctus et vel turpis. Vestibulum at felis 
-          tincidunt tellus finibus viverra. Aenean laoreet, eros nec faucibus cursus, sem velit lobortis lacus, in 
-          pulvinar massa lorem id nulla. Nulla lorem nulla, auctor id suscipit id, faucibus ac ex.
-    
-          Suspendisse at ipsum eget enim maximus faucibus. Curabitur id urna velit. Orci varius natoque penatibus et 
-          magnis dis parturient montes, nascetur ridiculus mus. Nunc sit amet rhoncus mi. Nam rutrum dui arcu, ut aliquam 
-          lacus maximus a. Suspendisse pretium eros nisi, ut pulvinar dolor malesuada a. Proin eget augue sollicitudin, 
-          dignissim ex fermentum, rutrum ligula. Praesent auctor ut neque ullamcorper rutrum. Integer sem lectus, 
-          sollicitudin id ullamcorper ut, aliquam at nunc. Praesent in purus consectetur, suscipit tellus quis, lacinia 
-          velit. Duis feugiat lacus vitae eros placerat convallis. Pellentesque vestibulum volutpat sem id mattis. 
-          Pellentesque suscipit commodo dolor mollis molestie. Nam pharetra pretium mattis. Proin blandit nisl felis, 
-          id vehicula massa fringilla aliquet.
-    
-          Phasellus dapibus maximus leo et egestas. Suspendisse ex mauris, auctor eu lacinia nec, ullamcorper vel ex. 
-          Mauris aliquet urna vitae sapien facilisis, sed ultricies ex congue. Donec hendrerit id tortor eu volutpat. 
-          In suscipit est nec molestie congue. Nullam congue imperdiet neque, a imperdiet erat lacinia non. Curabitur
-          molestie vitae augue eu ultricies. Quisque scelerisque dolor vitae aliquet scelerisque. Vestibulum convallis 
-          ut quam at lobortis. Integer et gravida velit, sed viverra libero.
-    
-        </p>
-      </mat-card-content>
-    </mat-card>
-  </mat-grid-tile>
-</mat-grid-list>
+          <br>
+          In terms of recommendations for future iterations of this project, there are a few things that could be improved in our design.
+          <br><br>
+          The accessibility of our design could be improved to allow it to be used by multiple different device types, as well as being a good playing experience for users who may have vision impairments. Currently, our design has some features which are locked behind button presses such as the pause menu being accessed by clicking the escape key. A way to improve the accessibility of this design feature could be to add a clickable button which would allow for greater usability for players using touch screen devices. The addition of a pause button would also make the affordance of the feature more clear, as it is currently a hidden affordance and would then be a correctly perceived affordance. 
+          <br><br>
+          Additionally, including a colour blind mode would be another design choice which could impact the accessibility of this game and allow more people to play and enjoy duck hunt. As it was originally designed in 1984, this feature was not as prevalent as it is now, and would be a valuable addition to our project. This feature would change the appearance and colours of different features to make each of the different aspects easier to distinguish which would make the game more enjoyable for a large playerbase.
+          <br><br>
+          Another area in which our project could be improved in the future is by enabling more analytical evaluation methods. To improve our ability to perform analytical evaluation our design would need to collect much more user data on their inputs and navigation through the program. This data could then be used to determine trends within our players and identify potential pain points. Increasing the ability to perform analytical evaluation will allow the design of this project to be improved in the areas which see the most users leave the platform, and ease the most problematic actions for users.
 
-<mat-grid-list cols="6" rowHeight="470" class="article-section">
-  <mat-grid-tile [colspan]="2" [rowspan]="1">
-    <img src="assets/screenshot.png" class="article-section-image">
-  </mat-grid-tile>
-  <mat-grid-tile [colspan]="4" [rowspan]="1">
-    <mat-card class="example-card">
-      <mat-card-header>
-        <mat-card-title>Design Principals</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>
-    
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat rhoncus consequat. Cras vitae 
-          iaculis ligula, commodo commodo purus. Curabitur consectetur velit hendrerit leo congue vehicula. Nulla 
-          condimentum congue ullamcorper. Fusce tristique et justo ac egestas. Vivamus massa eros, congue sit amet 
-          nisl ut, accumsan finibus ligula. Quisque nec neque a purus tempus luctus et vel turpis. Vestibulum at felis 
-          tincidunt tellus finibus viverra. Aenean laoreet, eros nec faucibus cursus, sem velit lobortis lacus, in 
-          pulvinar massa lorem id nulla. Nulla lorem nulla, auctor id suscipit id, faucibus ac ex.
-    
-          Suspendisse at ipsum eget enim maximus faucibus. Curabitur id urna velit. Orci varius natoque penatibus et 
-          magnis dis parturient montes, nascetur ridiculus mus. Nunc sit amet rhoncus mi. Nam rutrum dui arcu, ut aliquam 
-          lacus maximus a. Suspendisse pretium eros nisi, ut pulvinar dolor malesuada a. Proin eget augue sollicitudin, 
-          dignissim ex fermentum, rutrum ligula. Praesent auctor ut neque ullamcorper rutrum. Integer sem lectus, 
-          sollicitudin id ullamcorper ut, aliquam at nunc. Praesent in purus consectetur, suscipit tellus quis, lacinia 
-          velit. Duis feugiat lacus vitae eros placerat convallis. Pellentesque vestibulum volutpat sem id mattis. 
-          Pellentesque suscipit commodo dolor mollis molestie. Nam pharetra pretium mattis. Proin blandit nisl felis, 
-          id vehicula massa fringilla aliquet.
-    
-          Phasellus dapibus maximus leo et egestas. Suspendisse ex mauris, auctor eu lacinia nec, ullamcorper vel ex. 
-          Mauris aliquet urna vitae sapien facilisis, sed ultricies ex congue. Donec hendrerit id tortor eu volutpat. 
-          In suscipit est nec molestie congue. Nullam congue imperdiet neque, a imperdiet erat lacinia non. Curabitur
-          molestie vitae augue eu ultricies. Quisque scelerisque dolor vitae aliquet scelerisque. Vestibulum convallis 
-          ut quam at lobortis. Integer et gravida velit, sed viverra libero.
-    
-        </p>
-      </mat-card-content>
-    </mat-card>
-  </mat-grid-tile>
-</mat-grid-list>
-
-<mat-grid-list cols="6" rowHeight="470" class="article-section">
-  <mat-grid-tile [colspan]="2" [rowspan]="1">
-    <img src="../assets/screenshot.png" class="article-section-image">
-  </mat-grid-tile>
-  <mat-grid-tile [colspan]="4" [rowspan]="1">
-    <mat-card class="example-card">
-      <mat-card-header>
-        <mat-card-title>Heuristic Evaluation</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>
-    
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat rhoncus consequat. Cras vitae 
-          iaculis ligula, commodo commodo purus. Curabitur consectetur velit hendrerit leo congue vehicula. Nulla 
-          condimentum congue ullamcorper. Fusce tristique et justo ac egestas. Vivamus massa eros, congue sit amet 
-          nisl ut, accumsan finibus ligula. Quisque nec neque a purus tempus luctus et vel turpis. Vestibulum at felis 
-          tincidunt tellus finibus viverra. Aenean laoreet, eros nec faucibus cursus, sem velit lobortis lacus, in 
-          pulvinar massa lorem id nulla. Nulla lorem nulla, auctor id suscipit id, faucibus ac ex.
-    
-          Suspendisse at ipsum eget enim maximus faucibus. Curabitur id urna velit. Orci varius natoque penatibus et 
-          magnis dis parturient montes, nascetur ridiculus mus. Nunc sit amet rhoncus mi. Nam rutrum dui arcu, ut aliquam 
-          lacus maximus a. Suspendisse pretium eros nisi, ut pulvinar dolor malesuada a. Proin eget augue sollicitudin, 
-          dignissim ex fermentum, rutrum ligula. Praesent auctor ut neque ullamcorper rutrum. Integer sem lectus, 
-          sollicitudin id ullamcorper ut, aliquam at nunc. Praesent in purus consectetur, suscipit tellus quis, lacinia 
-          velit. Duis feugiat lacus vitae eros placerat convallis. Pellentesque vestibulum volutpat sem id mattis. 
-          Pellentesque suscipit commodo dolor mollis molestie. Nam pharetra pretium mattis. Proin blandit nisl felis, 
-          id vehicula massa fringilla aliquet.
-    
-          Phasellus dapibus maximus leo et egestas. Suspendisse ex mauris, auctor eu lacinia nec, ullamcorper vel ex. 
-          Mauris aliquet urna vitae sapien facilisis, sed ultricies ex congue. Donec hendrerit id tortor eu volutpat. 
-          In suscipit est nec molestie congue. Nullam congue imperdiet neque, a imperdiet erat lacinia non. Curabitur
-          molestie vitae augue eu ultricies. Quisque scelerisque dolor vitae aliquet scelerisque. Vestibulum convallis 
-          ut quam at lobortis. Integer et gravida velit, sed viverra libero.
-    
-        </p>
-      </mat-card-content>
-    </mat-card>
-  </mat-grid-tile>
-</mat-grid-list>
-
-<mat-grid-list cols="6" rowHeight="470" class="article-section">
-  <mat-grid-tile [colspan]="2" [rowspan]="1">
-    <img src="assets/screenshot.png" class="article-section-image">
-  </mat-grid-tile>
-  <mat-grid-tile [colspan]="4" [rowspan]="1">
-    <mat-card class="example-card">
-      <mat-card-header>
-        <mat-card-title>Recommendations</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>
-    
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat rhoncus consequat. Cras vitae 
-          iaculis ligula, commodo commodo purus. Curabitur consectetur velit hendrerit leo congue vehicula. Nulla 
-          condimentum congue ullamcorper. Fusce tristique et justo ac egestas. Vivamus massa eros, congue sit amet 
-          nisl ut, accumsan finibus ligula. Quisque nec neque a purus tempus luctus et vel turpis. Vestibulum at felis 
-          tincidunt tellus finibus viverra. Aenean laoreet, eros nec faucibus cursus, sem velit lobortis lacus, in 
-          pulvinar massa lorem id nulla. Nulla lorem nulla, auctor id suscipit id, faucibus ac ex.
     
         </p>
       </mat-card-content>

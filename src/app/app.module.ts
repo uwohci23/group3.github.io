@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 
+import { NgxImageZoomModule } from 'ngx-image-zoom';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -17,7 +19,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    NgxImageZoomModule
   ],
   providers: [],
   bootstrap: [AppComponent]
