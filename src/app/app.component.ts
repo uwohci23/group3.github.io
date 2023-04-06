@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Group 3 Final Project';
-  thumbNail = "/group3.github.io/assets/StoryboardFlow.jpg";
-  fullres = "/group3.github.io/assets/StoryboardFlow.jpg";
+  thumbNail = "/group3.github.io/assets/StoryboardFlow.png";
+  fullres = "/group3.github.io/assets/StoryboardFlow.png";
 }
